@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>IMC</title>
+  </head>
+  <body>
+    <h1>IMC</h1>
+    <h2>O que é o Índice de Massa Corporal?</h2>
+    <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa</p>
+    <h2>Vamos calcular o seu IMC</h2>
+    <p>Coloque o seu peso e altura abaixo</p>
+    <hr>
+
+    <label for="input-weight">Peso (kg):</label><br /> <!--O for é o id do input-->
+    <input id="input-weight" type="number" value="65.0" step="0.1" /><br /><br />
+
+    <label for="input-height">Altura (m): </label><br />
+    <input id="input-height" type="number" value="1.70"  step="0.01" />
+
+    <p>
+      <button id="button-calculate-imc">Calcular IMC</button>
+    </p>
+    <hr>
+    <p id="paragraph-result">
+      O seu IMC é <strong id="imc-result"></strong>
+    </p>
+
+    <p id="result-sentence"></p>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

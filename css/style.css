@@ -1,0 +1,16 @@
+body {    /*Elementos HTML*/
+  padding: 5px;
+  font-family: "Gill Sans", sans-serif;
+  background-color: lightgray;
+}
+
+#paragraph-result {    /*ID*/
+  margin-top: 30px;
+}
+
+
+input {
+  margin-top: 5px;
+  width: 200px;
+}
+
